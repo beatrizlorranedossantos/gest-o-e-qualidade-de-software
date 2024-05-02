@@ -27,7 +27,7 @@ public class MediaIdades {
             }
         } while (!input.equalsIgnoreCase("fim"));
 
-        // Passo 3: Verificar se foram inseridas idades antes de calcular a média
+        //Verificar se foram inseridas idades antes de calcular a média
         if (contador > 0) {
             // Calcular a média aritmética das idades
             double media = (double) soma / contador;
